@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/99c73e1aba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Rohail's Portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h2><span class="p">P</span>ortfolio.</h2>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Java Stack Developer</p>
+          <h1>Hello, I am <span>Rohail Khan</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------ABOUT--------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/WhatsApp Image 1.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+                I am a dedicated Computer Science student with a keen interest in technology and innovation. My journey in the tech world began with web development, where I honed my skills in creating dynamic and user-friendly websites. Currently, I am focused on mastering Java Full Stack Development, diving deep into both front-end and back-end technologies to build efficient and robust applications.
+
+                My ultimate goal is to become a proficient Java Full Stack Developer and expand my expertise into Python-based Artificial Intelligence and Machine Learning. I am fascinated by the transformative potential of AI/ML in solving real-world problems and aspire to contribute to this field in the future.
+                
+                Beyond academics and programming, I have a strong passion for football. It not only keeps me active but also teaches me teamwork, discipline, and perseverance, qualities that I carry into my professional aspirations.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>JAVA</li>
+                <li>MYSQL</li>
+                <li>GIT AND GITHUB</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2+Year Experience</span><br />Web Development</li>
+                <li>
+                  <span>1+Year Experience</span><br />Java Full Stack
+                  Development
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>CIT</span><br />Global Computer Institute</li>
+                <li>
+                  <span>2022 - 2026</span><br />Dawood University Of Enginnering
+                  And Technology
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------Services----------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Web development is the art of creating dynamic, responsive, and user-friendly websites that bridge functionality with design. It combines coding, creativity, and problem-solving to build seamless online experiences.</p>
+            <a href="https://www.simplilearn.com/what-is-web-designing-article#:~:text=Web%20designing%20is%20the%20process,make%20them%20easy%20to%20navigate.">Learn more</a>
+          </div>
+
+<div>
+    <i class="fab fa-app-store"></i>
+          <h2>App Design</h2>
+            <p>App development involves designing and building mobile or desktop applications that deliver seamless functionality and intuitive user experiences. It blends coding, creativity, and innovation to meet user needs on various platforms.</p>
+                <a href="https://kissflow.com/application-development/what-is-application-development/">Learn more</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------Portfolio---------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+            <img src="Images/Travelworld.jpg" alt="">
+            <div class="layer">
+
+              <a href="https://rohail-khan0.github.io/Travel_Website_Project/"><i class="fa-solid fa-arrow-up-right-from-square layer"></i></a>
+            </div>
+          </div>
+
+                <div class="work">
+            <img src="Images/Parallax.jpg" alt="">
+            <div class="layer">
+
+              <a href="https://rohail-khan0.github.io/Mini_Parallax_Website/"><i class="fa-solid fa-arrow-up-right-from-square layer"></i></a>
+            </div>
+          </div>
+                
+                <div class="work">
+            <img src="Images/Stack.jpg" alt="">
+            <div class="layer">
+
+              <a href="https://rohail-khan0.github.io/Web-dev-Project/"><i class="fa-solid fa-arrow-up-right-from-square layer"></i></a>
+            </div>
+          </div>
+                
+        
+            </div>
+        </div>
+     </div>
+<!-- -------------Contact------- -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>uk6277643@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+923112425796</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100015706668582"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/rohail.__.khan/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/rohail-khan00/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Rohail-khan0"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="Images/Rohail.jpg" class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your E-Mail" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Send Message</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p><i class="fa-regular fa-copyright"></i> 2025 Rohail Khan. All Rights Reserved</p>
+  </div>
+
+ </div>
+    <script src="index.js"></script>
+  </body>
+</html>
