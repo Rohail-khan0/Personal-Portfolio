@@ -215,12 +215,12 @@ h2 .p {
 
 }
 .layer a { 
-  color: #ff0404;
+  color: #fff;
   text-decoration: none;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #fff;
+/*   background: #fff; */
   text-align: center;
 }
 .work:hover img {
@@ -385,4 +385,5 @@ cursor: pointer;
   color: #61b752;
   margin-top: -20px;
   display: block;
+
 }
